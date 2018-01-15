@@ -3,20 +3,13 @@
 var modal = document.getElementById('myModal');
 
 var img = document.getElementById('button');
-var modalImg = document.getElementById('Img01');
+var modalImg = document.getElementById('img01');
 var captionText = document.getElementById('caption');
-
-function changeImage(img) {
-    document.getElementById("img").src = img.src.replace("img01", "openPic1");
-}
-
 
 
 img.onclick = function() {
     modal.style.display = "block";
-    modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-
 }
 
 var span = document.getElementByClassName("close")[0];
@@ -27,26 +20,19 @@ span.onlick = function() {
 /* button2 */
 
 
-
 var modal2 = document.getElementById('myModal2');
 
 var img2 = document.getElementById('button2');
-var modalImg2 = document.getElementById('Img02');
+var modalImg2 = document.getElementById('img02');
 var captionText2 = document.getElementById('caption2');
-
-function changeImage(img2) {
-    document.getElementById("img2").src = img2.src.replace("img02", "openPic2");
-}
-
 
 
 img2.onclick = function() {
     modal2.style.display = "block";
-    modalImg2.src = this.src;
     captionText2.innerHTML = this.alt;
 }
 
-var span2 = document.getElementByClassName("close2")[0];
+var span2 = document.getElementsByClassName("close2")[0];
 span.onlick = function() {
     modal2.style.display = "none";
 }
