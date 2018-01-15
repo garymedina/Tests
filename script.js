@@ -1,30 +1,34 @@
 
 
 var modal = document.getElementById('myModal');
-
 var img = document.getElementById('button');
 var modalImg = document.getElementById('img01');
 var captionText = document.getElementById('caption');
-
 
 img.onclick = function() {
     modal.style.display = "block";
     captionText.innerHTML = this.alt;
 }
 
-var span = document.getElementByClassName("close")[0];
+var span = document.getElementsByClassName("close")[0];
+
 span.onlick = function() {
     modal.style.display = "none";
 }
 
+
+
+
+
+
 /* button2 */
-
-
 var modal2 = document.getElementById('myModal2');
 
 var img2 = document.getElementById('button2');
+
 var modalImg2 = document.getElementById('img02');
 var captionText2 = document.getElementById('caption2');
+
 
 
 img2.onclick = function() {
