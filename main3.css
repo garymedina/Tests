@@ -1,0 +1,233 @@
+
+html {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 100px;
+	min-height: 100px;
+}
+
+
+
+header {
+	display: block;
+}
+
+
+.topbackground img {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.logo {
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 38%;
+}
+
+header h1 {
+	display: block;
+	font-family: 'Barlow', sans-serif;
+	font-size: 46px;
+	position: absolute;
+	top: 65px;
+	color: white;
+	opacity: 0.8;
+	left: 370px;
+}
+
+header h2 {
+	font-family: 'Barlow', sans-serif;
+	font-size: 26px;
+	position: absolute;
+	top: 115px;
+	color: white;
+	opacity: 0.8;
+	left: 480px;
+}
+
+
+/* fucking BUTTONS */
+
+#button {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background: rgb(221, 156, 8);
+	border-radius: 50px;
+	border: 6px solid transparent;
+	height: 35px;
+	width: 35px;
+	padding: 4px;
+	cursor: pointer;
+    transition: 0.2s ease, height 0.2s ease, top 0.2s ease, left 0.2s ease;
+}
+
+#button:hover {
+	border: 6px solid rgb(221, 156, 8);
+	height: 35px;	
+	width: 35px;
+	position: absolute;
+	background: rgb(221, 156, 8);
+	padding: 4px;
+}
+
+.modal {
+	position: absolute;
+	display: none;
+	background: black;
+	width: 100%;
+	opacity: 0.8;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.close {
+	display: block;
+	position: absolute;
+	background: darkred;
+	left: 9px;
+	top: 8px;
+	border-radius: 40px;
+	border: 8px solid darkred;
+	opacity: 1;
+	transition: 0.2s ease, height 0.2s ease, top 0.2s ease, left 0.2s ease;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+.modal-content {
+	display: block;
+	position: absolute;
+	max-width: 2000px;
+	max-height: 2000px;
+	background: black;
+	border-radius: 500px;
+	opacity: 0.9;
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.2s;
+	animation-name: zoom;
+	animation-duration: 0.2s;
+}
+
+#caption {
+	display: block;
+	margin: auto;
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 240px;
+	max-width: 700px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	height: 150px;
+}
+
+#openPic1 {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	background: black;
+	border-radius: 200px;
+}
+
+#button2 {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	background: rgb(221, 156, 8);
+	border-radius: 50px;
+	border: 6px solid transparent;
+	height: 35px;
+	width: 35px;
+	padding: 4px;
+	cursor: pointer;
+	transition: 0.2s ease, height 0.2s ease, top 0.2s ease, left 0.2s ease;
+}
+
+#button2:hover {
+	border: 6px solid transparent;
+	height: 35px;
+	width: 35px;
+	padding: 4px;
+}
+
+.modal2 {
+	position: absolute;
+	display: none;
+	background: black;
+	width: 100%;
+	opacity: 0.8;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+.close2 {
+	display: block;
+	position: absolute;
+	background-color: red;
+	border-radius: 50px;
+	left: 99px;
+	top: 99px;
+	border: 2px solid red;
+	padding: 8px;
+    transition: 0.2s, height 0.2s ease, top 0.2s ease, left 0.2s ease;
+}
+
+.close2:hover {
+	opacity: 1;
+}
+
+.modal-content2 {
+	display: block;
+	position: absolute;
+	max-width: 2000px;
+	max-height: 2000px;
+	background: black;
+	border-radius: 500px;
+	opacity: 0.9;
+	-webkit-animation-name: zoom;
+	-webkit-animation-duration: 0.2s;
+	animation-name: zoom;
+	animation-duration: 0.2s;
+}
+
+#caption2 {
+	display: block;
+	margin: auto;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 200px;
+	max-width: 700px;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	height: 150px;
+}
+
+#openPic2 {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	background: black;
+	border-radius: 200px;
+}
